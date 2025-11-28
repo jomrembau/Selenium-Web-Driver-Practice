@@ -1,5 +1,3 @@
-from os import times
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
@@ -24,5 +22,6 @@ for x in range(0,len(times_list)):
     }
 
 print(all_events)
+
 
 driver.quit()
